@@ -1,3 +1,8 @@
-from Frontend.app_envios import *
+import tkinter as tk
+from Frontend.app_envios import PantallaEnvios
 
-print("Sistema iniciado correctamente")
+root = tk.Tk()
+
+app = PantallaEnvios(root)
+
+root.mainloop()
